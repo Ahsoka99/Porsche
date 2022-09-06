@@ -1,0 +1,223 @@
+body {
+  background: -webkit-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+            -webkit-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+            -webkit-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+            -webkit-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+            -webkit-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+            -webkit-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background: -moz-linear-gradient(63deg, #151515 5px, transparent 5px) 0 5px,
+            -moz-linear-gradient(243deg, #151515 5px, transparent 5px) 10px 0px,
+            -moz-linear-gradient(63deg, #222 5px, transparent 5px) 0px 10px,
+            -moz-linear-gradient(243deg, #222 5px, transparent 5px) 10px 5px,
+            -moz-linear-gradient(0deg, #1b1b1b 10px, transparent 10px),
+            -moz-linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+            linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+            linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+            linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+            linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+            linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+  background-size: 20px 20px;
+  background-color: #131313;
+  font-family: 'Times New Roman';
+  margin: 0;
+  align-items: center;
+  height: 100vh;
+}
+body h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  font-size: 2em;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  margin: 0px;
+}
+.centering {
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
+}
+.slide {
+  height: 80vh;
+  border-radius: 20px;
+  margin: 5px;
+  cursor: pointer;
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  transition: all 500ms ease-in-out;
+}
+.slide h3 {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 25px;
+  margin: 0;
+  opacity: 0;
+  color: white;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+.active1 {
+  flex: 10;
+  cursor: default;
+}
+.active2 {
+  flex: 10;
+  cursor: default;
+}
+.active3 {
+  flex: 10;
+  cursor: default;
+}
+.active4 {
+  flex: 10;
+  cursor: default;
+}
+.active1 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.active2 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.active3 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+.active4 h3 {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.4s;
+}
+footer {
+  position: absolute;
+  background-color: rgb(136, 134, 134);
+  height: 130px;
+  width: 100%;
+}
+.logo {
+  position: absolute;
+  /*margin-left: 150px;*/
+  text-align: left;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 40px;
+  line-height: 30px;
+  bottom: 0;
+  top: 20px;
+}
+.footer2 {
+  display: flex;
+  justify-content: center;
+}
+.footer1 {
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+}
+.footer3 {
+  font-size: 20px;
+  padding-left: 18px;
+  padding-top: 3px;
+}
+.connection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+}
+.connection a {
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  margin-top: 3px;
+  padding-left: 4px;
+  padding-right: 5px;
+  padding-top: 1px;
+  padding-bottom: 0px;
+  border-width: 0;
+  border-radius: 13px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(100, 100, 100);
+  transition-property: all;
+  transition-duration: 0.9s;
+}
+.connection a:hover {
+  background: rgb(114, 114, 114);
+  transition-duration: 0.5s;
+}
+.Porsсhe718Cayman {
+  background-image: url(DSC_0025-1_BM.jpg);
+}
+.Porsсhe718CaymanGTS40 {
+  background-image: url(porsm129.jpg);
+}
+.Porsсhe718CaymanGT4 {
+  background-image: url(2020-Porsche-718-Cayman-GT4-Color-Miami-Blue-Front-Three-Quarter-Wallpaper.jpg);
+}
+.Porsсhe718Boxster {
+  background-image: url(1108256.jpg);
+}
+.Porsсhe718BoxsterGTS40 {
+  background-image: url(1107976.jpg);
+}
+.Porsсhe911Carrera {
+  background-image: url(porsche-911-carrera-03.jpg);
+}
+.Porsсhe911Carrera4S {
+  background-image: url(Porsche_1B.jpg);
+}
+.Porsсhe911CarreraGTS {
+  background-image: url(78458.jpg);
+}
+.Porsсhe911Targa4 {
+  background-image: url(pors9827.jpg);
+}
+.Porsсhe911GT3 {
+  background-image: url(porsche-911-gt3-rs-wallpapers-34744-7734575.png);
+}
+.PorsсhePanamera4S {
+  background-image: url(Used-2018-Porsche-Panamera-4S.jpg);
+}
+.PorsсhePanamera4E-Hybrid {
+  background-image: url(porsche-2018-panamera-4-e-hybrid-plug-electric-range_3.jpg);
+}
+.PorsсhePanamera4SE-Hybrid {
+  background-image: url(1100764.jpg);
+}
+.PorsсhePanamera4Executive {
+  background-image: url(Panamera-971-Executive.jpg);
+}
+.PorsсhePanameraGTSSportTurismo {
+  background-image: url(394E.jpg);
+}
+.PorsсheTaycan {
+  background-image: url(porsta047.jpg);
+}
+.PorsсheTaycanSportTurismo {
+  background-image: url(61c79eafcce8ae4b1cfe3d9a0b53a472.jpg);
+}
+.PorsсheTaycan4S {
+  background-image: url(2020-Porsche-Taycan-4s-151.jpg);
+}
+.PorsсheTaycanT {
+  background-image: url(porsche-taycan-vossen-wheels.jpg);
+}
+.PorsсheTaycanGTS  {
+  background-image: url(car32647.jpg);
+}
